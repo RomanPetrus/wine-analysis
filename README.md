@@ -8,7 +8,7 @@ The goal is to demonstrate clean data processing, analysis logic,
 and clear project organization.
 
 ## Project structure
-
+```text
 wine-analysis/
 │
 ├── README.md                         # Project description and usage
@@ -18,7 +18,6 @@ wine-analysis/
 │
 ├── src/
 │   ├── wine_analysis.py              # Main runner script (entry point)
-│   │
 │   └── wine_analysis/
 │       ├── __init__.py               # Marks this folder as a Python package
 │       ├── config.py                 # Central configuration (paths, constants)
@@ -33,6 +32,7 @@ wine-analysis/
 │   └── sweet_spot.csv                # Best value wines
 │
 └── .gitignore                        # Files/folders excluded from Git
+```
 
 How to Run
 ----------
